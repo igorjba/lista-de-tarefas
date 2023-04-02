@@ -27,7 +27,7 @@ O projeto é uma lista de tarefas, onde é possível adicionar, editar e excluir
 
 [https://lista-de-tarefas-lake.vercel.app](https://lista-de-tarefas-lake.vercel.app)
 
-[Ir para o topo] (#lista-de-tarefas)
+[Ir para o topo](#lista-de-tarefas) 
 
 [def]: #home
 
