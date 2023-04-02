@@ -1,0 +1,71 @@
+.App {
+    display: flex;
+
+    height: 100vh;
+}
+
+.App div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.App div:first-child {
+    width: 30%;
+    border-right: 1px solid gray;
+}
+
+.App div:last-child {
+    width: 70%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 10px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+
+    cursor: pointer;
+}
+
+li span:hover {
+    transform: scale(1.1);
+}
+
+.btn-del {
+    all: unset;
+    width: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 3px;
+
+    text-align: center;
+
+    background-color: red;
+    color: white;
+}
+
+.btn-del:hover {
+    transform: scale(1.1);
+}
+
+input {
+    width: 180px;
+    padding: 8px;
+
+    font-size: 16px;
+}
+
+.task-done {
+    text-decoration: line-through;
+}
